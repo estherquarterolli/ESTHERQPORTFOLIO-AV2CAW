@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mim - Esther Quarterolli </title>
+     <link rel="stylesheet" href="stylegeral.css">
+     <link rel="stylesheet" href="stylesobremim.css">
+     <script src="scriptgeral.js"></script>
+    
+
+</head>
+<body>
+    <div id="scroll-progress-bar-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <audio id="musica-fundo" src="assets/lofimusic.mp3" loop></audio>
+
+    <header class="cabecalho">
+        <div class="container">
+            <a href="index.html" class="logo">Esther Quarterolli</a>
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobremim.html" class="nav-link ative">About me</a></li>
+                    <li><a href="sobremim.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-botoes">
+                <button id="botao-musica-header" aria-label="Tocar/Pausar música">
+                    <svg id="icone-musica" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"></svg>
+                </button>
+                <button id="botao-tema" aria-label="Alternar tema">
+                    <svg id="icone-tema" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre-mim-pagina" class="secao">
+            <div class="separador-l-container canto-superior-esquerdo"><div class="separador-l-bolinha"></div></div>
+            <div class="container pagina-sobre-wrapper">
+                <div class="sobre-conteudo-principal">
+                    <article id="quem-sou-eu" class="sobre-secao">
+                        <h2>ABOUT ME</h2>
+                        <p>Hi! I'm Esther Santos, a developer passionate about creating solutions that combine logic, design, and user experience. I'm currently studying Systems Analysis and Development and diving deeper into technologies that allow me to build functional, intuitive, and meaningful applications.</p>
+                        <p>I have experience with HTML, CSS, JavaScript, PHP, and MySQL, and I'm always learning new tools and best practices. I believe in the power of curiosity, organization, and continuous improvement — and I strive to turn ideas into real, impactful projects.</p>
+                    </article>
+
+                    <article id="experiencias-certificados" class="sobre-secao">
+                        <h2>EXPERIENCES AND CERTIFICATES</h2>
+                        <div class="grade-experiencias">
+                        
+                           <div class="item-experiencia">
+                            <p><strong>Freelance UX/UI Designer (2021–2023):</strong> Criação de protótipos, wireframes e design systems para startups, focando em usabilidade e experiência do usuário.</p>
+                        </div>
+
+                        <div class="item-experiencia">
+                            <p><strong>Internship in Graphic Design and Digital Marketing</strong> Imersão em metodologias ágeis e colaborativas para inovação em produtos digitais.</p>
+                        </div>
+                        
+                            
+                        </div>
+                    </article>
+
+                    <article id="depoimentos" class="sobre-secao">
+                        <h2>TESTIMONIALS</h2>
+                        <div class="grade-depoimentos">
+                            <div class="cartao-depoimento">
+                                <p>"Working with Esther was an incredible experience. She's committed, detail-oriented, and consistently delivers creative solutions with a strong user focus. I highly recommend her for any project that requires quality and innovation."</p>
+                                <p class="autor-depoimento">- Sandra, CEOR</p>
+                            </div>
+                           
+                        </div>
+                    </article>
+                </div>
+
+                <aside class="sobre-sidebar-contato">
+                    <h2>CONTACT-ME</h2>
+                    <form id="form-contato-sobre" action="">
+                        <div class="campo-form">
+                            <label for="sobre-nome-completo">FULL NAME</label>
+                            <input type="text" id="sobre-nome-completo" name="nome-completo" required>
+                        </div>
+                        <div class="campo-form">
+                            <label for="sobre-email-telefone">EMAIL OR PHONE</label>
+                            <input type="text" id="sobre-email-telefone" name="email-telefone" required>
+                        </div>
+                        <div class="campo-form">
+                            <label for="sobre-mensagem">MENSAGE</label>
+                            <textarea id="sobre-mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">SUBMIT</button>
+                    </form>
+                    <div id="feedback-form-sobre" class="feedback-form-mensagem"></div>
+                    <div class="links-extras-contato">
+                        <a href="https://wa.me/5521980772320?text=Hello%2C%20I%20came%20for%20your%20portfolio.." target="_blank" aria-label="WhatsApp" class="link-contato whatsapp">
+                            <img src="assets/icons8-whatsapp.svg" alt=""> WhatsApp
+                        </a> 
+                        
+                        <a href="https://github.com/estherquarterolli" target="_blank" aria-label="GitHub" class="link-contato github">
+                            <img src="assets/icons8-github-logo-94.png" alt="">
+                            Github
+                        </a> 
+                        
+                        <a href="https://www.instagram.com/arabellasversion/" target="_blank" aria-label="Instagram" class="link-contato instagram">
+                            <img src="assets/icons8-instagram.svg" alt="">
+                            Instagram
+                        </a>
+                    </div>
+                </aside>
+            </div>
+            <div class="separador-l-container canto-inferior-direito"><div class="separador-l-bolinha"></div></div>
+        </section>
+    </main>
+
+     <footer class="rodape">
+        <div class="container">
+            <p class="terminal-text prompt">System.out.println("Let's connect!");</p>
+<<<<<<< HEAD
+            <p>© <span>2025</span> Esther Quarterolli. All rights reserved.</p>
+=======
+            <p>© <span> 2025</span> Esther Quarterolli. All rights reserved.</p>
+>>>>>>> ace711908b3859af1947dba5e1d301b4c9662cbd
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/esther-quarterolli-789624217/" target="_blank" aria-label="LinkedIn"><img src="assets/icons8-linkedin.svg" alt="LinkedIn"></a>
+                <a href="https://github.com/estherquarterolli" target="_blank" aria-label="GitHub"><img src="assets/icons8-github-logo-94.png" alt="GitHub"></a>
+                <a href="mailto:estherquarterollii@gmail.com" aria-label="Email"><img src="assets/icons8-gmail.svg" alt="Email"></a>
+            </div>
+            <p class="terminal-text">status: online <span class="blink-cursor-footer"></span></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
