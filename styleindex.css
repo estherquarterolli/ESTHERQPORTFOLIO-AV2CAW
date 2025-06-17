@@ -323,9 +323,10 @@ body.tema-escuro .cartao-projeto .conteudo-interno-projeto {
 .cartao-projeto img {
     width: 100%;
     height: 180px;
-    object-fit: cover;
+    object-fit: contain; 
     border-radius: calc(var(--border-radius-padrao) - 10px);
     margin-bottom: 15px;
+    background: linear-gradient(90deg, var(--cor-primaria), var(--cor-secundaria));
 }
 .cartao-projeto h3 {
     font-size: 1.5rem;

@@ -1,11 +1,7 @@
-/**
- * pagina-projetos.js
- * Contém a lógica específica para o carrossel de projetos.
- * Deve ser incluído apenas na página que contém o carrossel.
- */
+
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Carrossel de Projetos (versão refatorada e mais legível)
+    // Carrossel de Projetos 
     const carrosselTrilho = document.querySelector('.carrossel-trilho');
     if (carrosselTrilho) {
         const cartoes = document.querySelectorAll('.cartao-projeto');
