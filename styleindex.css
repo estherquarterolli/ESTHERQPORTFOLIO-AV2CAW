@@ -12,24 +12,6 @@ body.tema-escuro .secao-hero {
     background: linear-gradient(60deg, #000000 0%, var(--cor-complementar) 50%, var(--cor-secundaria) 100%);
 }
 
-.particle {
-    position: absolute;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.2);
-    opacity: 0;
-    animation: sparkle 15s infinite linear alternate;
-    z-index: 0;
-}
-.particle.p1 { width: 4px; height: 4px; top: 15%; left: 10%; animation-delay: 0s; animation-duration: 12s; }
-.particle.p2 { width: 2px; height: 2px; top: 40%; left: 85%; animation-delay: 3s; animation-duration: 18s; }
-.particle.p3 { width: 5px; height: 5px; top: 75%; left: 30%; animation-delay: 6s; animation-duration: 10s; }
-.particle.p4 { width: 3px; height: 3px; top: 50%; left: 50%; animation-delay: 1s; animation-duration: 20s; }
-.particle.p5 { width: 2px; height: 2px; top: 80%; left: 5%; animation-delay: 8s; animation-duration: 15s; }
-.particle.p6 { width: 4px; height: 4px; top: 25%; left: 60%; animation-delay: 4s; animation-duration: 13s; }
-
-body.tema-escuro .particle {
-    background: rgba(var(--cor-brilho-rgb), 0.3);
-}
 
 .secao-hero .container {
     display: flex;

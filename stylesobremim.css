@@ -133,27 +133,6 @@ body.tema-escuro #form-contato-sobre button[type="submit"]:hover {
     background-color: var(--cor-primaria);
 }
 
-/* Feedback do Formulário */
-.feedback-form-mensagem {
-    display: none; /* Começa escondido */
-    margin-top: 15px;
-    padding: 10px;
-    border-radius: var(--border-radius-padrao);
-    text-align: center;
-    border-width: 1px;
-    border-style: solid;
-}
-.feedback-form-mensagem.sucesso {
-    background-color: var(--cor-cartao-claro); 
-    color: #155724; /* Verde escuro para texto */
-    border-color: #c3e6cb; /* Borda verde clara */
-}
-body.tema-escuro .feedback-form-mensagem.sucesso {
-    background-color: var(--cor-cartao-escuro);
-    color: #A7F3D0; /* Verde claro para texto no tema escuro */
-    border-color: #34D399; /* Borda verde mais escura para contraste */
-}
-
 
 .links-extras-contato {
     display: flex;

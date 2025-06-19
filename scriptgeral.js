@@ -1,20 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Barra de Progresso de Scroll
-    const scrollProgressBar = document.getElementById('scroll-progress-bar');
-    if (scrollProgressBar) {
-        window.addEventListener('scroll', () => {
-            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            if (scrollHeight > 0) {
-                const scrolled = (scrollTop / scrollHeight) * 100;
-                scrollProgressBar.style.width = scrolled + '%';
-            } else {
-                scrollProgressBar.style.width = '0%';
-            }
-        });
-    }
 
     //  Efeito de Digitação no Hero
     const heroTituloElement = document.getElementById('hero-titulo');
@@ -34,13 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(typeWriter, 500);
     }
 
-    //  Atualiza o ano no rodapé
-    const anoAtualEl = document.getElementById('ano-atual');
-    if (anoAtualEl) {
-        anoAtualEl.textContent = new Date().getFullYear();
-    }
 
-    //  Links de Navegação Ativos (usando a versão mais robusta do script 1)
+    //  Links de Navegação Ativos 
     const navLinks = document.querySelectorAll('.nav-link');
     if (navLinks.length > 0) {
         const currentPageFile = window.location.pathname.split("/").pop() || "index.html";
